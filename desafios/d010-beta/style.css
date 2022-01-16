@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(245, 242, 205);
+    text-align: justify;
+}
+    
+
+main {
+    background-color: white;
+    width: 800px;
+    margin: auto;
+    padding: 15px;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 1px 1px 5px  rgba(0, 0, 0, 0.473);
+}
+
+h2 {
+    color: green;
+    background-image: linear-gradient(to right, rgba(185, 233, 185, 0.712), white);
+}
+
+.destaque {
+    color: green;
+    font-weight: bold;
+}
+
+header {
+    background-image: linear-gradient(to bottom, rgb(0, 201, 0), rgb(0, 97, 0));
+    padding: 30px 0 10px 0;
+    margin: 0;
+}
+
+header > h1 {
+    margin: 0;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.473);
+}
+
+header > p {
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.473);
+    padding: 0 0 30px 0;
+}
+
+.menu {
+    list-style-type: none;
+    display: inline-block;
+    width: 150px;
+}
+
+li > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.titulo-principal {
+    color: green;
+    margin: 0;
+}
+
+h1.cabecalho {
+    color: white;
+    background-color: rgb(62, 100, 62);
+    padding: 5px;
+    margin: 0;
+    border-radius: 10px 10px 0 0 ;
+}
+
+section {
+    background-color: rgb(177, 207, 177);
+    margin: auto;
+    padding: 10px;
+    border-radius: 0 0 10px 10px;
+}
+
+div.direita {
+    display: flex;
+    float: right;  
+    margin: 0 300px 0 0;
+}
+
+div.esquerda {
+    display: flex;
+    float: left;
+}
+
+div.direita > ul {
+    list-style-type: none;
+}
+
+div.esquerda > ul {
+    list-style-type: none;
+}
+
+div li::before {
+    content: "✔";
+    margin-right: 10px;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    background-color: green;
+    padding: 10px;
+    margin-top: 20px;
+}
